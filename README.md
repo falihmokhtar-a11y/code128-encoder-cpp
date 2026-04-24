@@ -51,8 +51,7 @@ Diese Struktur verbessert die Wartbarkeit und Lesbarkeit des Codes.
 ```bash
  cl /EHsc /std:c++17 mein.cpp Cd128Encoder.cpp Validator.cpp
 
-```md
-## Mit CMake:
+### Mit CMake:
 ```bash
 
 mkdir build
