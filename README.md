@@ -48,27 +48,25 @@ Diese Struktur verbessert die Wartbarkeit und Lesbarkeit des Codes.
 ## Build
 
 ### Mit MSVC (ohne CMake)
-```bash
- cl /EHsc /std:c++17 mein.cpp Cd128Encoder.cpp Validator.cpp
 
-### Mit CMake:
 ```bash
+cl /EHsc /std:c++17 mein.cpp Cd128Encoder.cpp Validator.cpp
+
+Mit CMake:
 
 mkdir build
 cd build
 cmake ..
 cmake --build .
 
-```md
-## Ausführung:
-
+## Ausführung
 Mit MSVC:
-```bash
 mein.exe
 
-## Mit CMake:
+### Mit CMake
 
-build/Debug/code128-encoder.exe
+```bash
+.\build\Debug\code128-encoder.exe
 
 ## Eingabe und Ausgabe:
 Eingabe: ASCII-Text (Zeichenbereich 32–126, Subset B)
